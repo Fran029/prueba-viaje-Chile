@@ -10,3 +10,19 @@
 nav img{
       width: 30px;
 }
+
+footer ul {
+      list-style: none;
+}
+
+/* Estilo para quitar formato predeterminado de los elementos de lista */
+footer .icon-footer i {
+      color: #fff; /* Cambia el color de los íconos según tus preferencias */
+      font-size: 30px; /* Ajusta el tamaño de los íconos según tus preferencias */
+      padding: 10px 0; /* Añade relleno superior e inferior */
+}
+footer h2 {
+      color: #fff; /* Cambia el color de los íconos según tus preferencias */
+      padding: 5px 0; /* Añade relleno superior e inferior */
+      margin-left: 90px;
+}
