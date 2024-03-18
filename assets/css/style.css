@@ -1,28 +1,117 @@
-.card{
-            flex:1;
-            padding: 10px;
-            box-sizing: border-box;
-            display:flex;
-            gap: 10px;
+body {
+      background-color: #000000;
+}
 
+header {
+      margin-bottom: 80px;
+}
+
+section {
+      margin-top: 120px;
+      margin-bottom: 120px;
+}
+
+/* Estilo Bara de navegacion */
+.navbar {
+      position: absolute;
+      width: 100%;
+      z-index: 1000;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand,
+.nav-item.active {
+      color: #ffffff;
+}
+
+.carousel {
+      position: relative;
+      z-index: 1;
+}
+
+.carousel-item img {
+      height: calc(100vh / 3);
+      object-fit: cover;
 }
 
 nav img{
       width: 30px;
 }
 
-footer ul {
-      list-style: none;
+/* Estilo de Sección Quiénes Somos y iconos */
+#quienes {
+      color: #ffffff;
 }
 
-/* Estilo para quitar formato predeterminado de los elementos de lista */
-footer .icon-footer i {
-      color: #fff; /* Cambia el color de los íconos según tus preferencias */
-      font-size: 30px; /* Ajusta el tamaño de los íconos según tus preferencias */
-      padding: 10px 0; /* Añade relleno superior e inferior */
+.icon1,
+.icon2 {
+      margin-bottom: 20px;
 }
+
+.icon1 i,
+.icon2 i {
+      font-size: 2em;
+      color: #ffffff;
+}
+
+.icon1 p,
+.icon2 p {
+      color: #ffffff;
+}
+
+#quienes h3 {
+      margin-bottom: 60px;
+}
+
+/* Estilo de Sección card */
+#destacados {
+      color: #ffffff;
+}
+
+#destacados h3 {
+      margin-bottom: 60px;
+}
+
+.card{
+      height: 100%;
+}
+
+.card-img-top {
+      height: 200px;
+      object-fit: cover;
+}
+
+.card p {
+      color: #ffffff;
+}
+
+/* Estilo de Sección contacto */
+#contacto {
+      color: #ffffff;
+}
+
+#contacto h3 {
+      margin-bottom: 60px;
+}
+
+section form .form-group label {
+      color: #ffffff;
+      margin-bottom: 20px;
+}
+
+section form .form-group {
+      margin-bottom: 30px;
+}
+
+/* Estilo del footer */
+footer .icon-footer i {
+      color: #ffffff;
+      font-size: 30px;
+      padding: 10px 0;
+}
+
 footer h2 {
-      color: #fff; /* Cambia el color de los íconos según tus preferencias */
-      padding: 5px 0; /* Añade relleno superior e inferior */
+      color: #ffffff;
+      padding: 5px 0;
       margin-left: 90px;
 }

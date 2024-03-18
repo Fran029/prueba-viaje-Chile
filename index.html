@@ -18,7 +18,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
 <body>
     <!-- Encabesado de pagina -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"> 
                     <img src="assets/img/logo.jpeg" alt="logo">
@@ -30,7 +30,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#quienes somos"> Quienes Somos</a>
@@ -72,26 +72,26 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
         
     </header>
 
-    <!--iconos -->
+    <!-- Sección Quiénes Somos y iconos -->
     <section class="container">
-        <div id="quienes somos" class="text-center display-3"> 
-            <h3> ¿QUIÉNES SOMOS? </h3>
+        <div id="quienes" class="text-center display-3"> 
+            <h3>¿QUIÉNES SOMOS?</h3>
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-3">
-            <div class="icon1"> 
-                <i class="fa-solid fa-plane" ></i>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, magnam quasi amet ex inventore itaque tempora facere necessitatibus assumenda blanditiis aperiam temporibus consectetur reprehenderit? Et distinctio impedit possimus officiis reiciendis!  </p>
+            <div class="icon1 col">
+                <span class="badge text-bg-info w-100"><i class="fas fa-plane"></i></span>
+                <p class="h-100 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis facilis animi adipisci molestias? Laudantium vero maxime blanditiis deserunt omnis aliquid odit repellendus minus ratione. Repudiandae modi consequuntur earum aut?</p>
             </div>
 
-            <div class="icon2">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, magnam quasi amet ex inventore itaque tempora facere necessitatibus assumenda blanditiis aperiam temporibus consectetur reprehenderit? Et distinctio impedit possimus officiis reiciendis! </p>
-                <i class="fa-solid fa-mountain"></i>
+            <div class="icon2 col">
+                <p class="h-100 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, magnam quasi amet ex inventore itaque tempora facere necessitatibus assumenda blanditiis aperiam temporibus consectetur reprehenderit? Et distinctio impedit possimus officiis reiciendis!</p>
+                <span class="badge text-bg-info w-100"><i class="fas fa-mountain"></i></span>
             </div>
 
-            <div class="icon1">
-                <i class="fa-solid fa-route"></i>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, magnam quasi amet ex inventore itaque tempora facere necessitatibus assumenda blanditiis aperiam temporibus consectetur reprehenderit? Et distinctio impedit possimus officiis reiciendis! </p>
+            <div class="icon1 col">
+                <span class="badge text-bg-info w-100"><i class="fas fa-route"></i></span>
+                <p class="h-100 d-flex align-items-center justify-content-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, magnam quasi amet ex inventore itaque tempora facere necessitatibus assumenda blanditiis aperiam temporibus consectetur reprehenderit? Et distinctio impedit possimus officiis reiciendis!</p>
             </div>
         </div>
     </section>
@@ -104,7 +104,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
 
         <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
-                <div class="card">
+                <div class="card text-bg-info">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
 
                     <div class="card-body">
@@ -113,7 +113,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card text-bg-info">
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -121,7 +121,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card text-bg-info">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -129,7 +129,7 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card text-bg-info">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
